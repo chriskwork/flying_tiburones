@@ -5,6 +5,7 @@ node_modules/
 db_config.php
 wp-config.php
 .env
+.htaccess
 
 # OS
 .DS_Store
