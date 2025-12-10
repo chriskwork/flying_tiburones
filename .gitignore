@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# 민감 정보
+db_config.php
+wp-config.php
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
+error_log
+debug.log
+
+# Uploads (나중에 이미지 업로드 기능 만들면)
+/uploads/*
+!/uploads/.gitkeep
+
+# Build (선택사항 - 빌드 결과물도 올릴지 말지)
+# assets/css/style.css
+
+adminer.php
+
+# Backups
+*.sql
+*.sql.gz
+*.backup
